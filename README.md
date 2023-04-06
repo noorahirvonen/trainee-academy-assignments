@@ -1,2 +1,2 @@
 # trainee-academy-assignments
-Examples of JavaScript coding
+Examples of JavaScript, HTML & CSS coding by Noora Hirvonen
