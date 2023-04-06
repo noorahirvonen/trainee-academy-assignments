@@ -1,0 +1,25 @@
+{
+  "name": "trainee-academy-assignments",
+  "version": "1.0.0",
+  "description": "Examples of JavaScript coding",
+  "type": "module",
+  "main": "dumb_chatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Noora Hirvonen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/\u0016\u0016\u0016\u0016\u0016noorahirvonen/trainee-academy-assignments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/\u0016\u0016\u0016\u0016\u0016noorahirvonen/trainee-academy-assignments/issues"
+  },
+  "homepage": "https://github.com/\u0016\u0016\u0016\u0016\u0016noorahirvonen/trainee-academy-assignments#readme",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
