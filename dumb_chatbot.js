@@ -33,7 +33,7 @@ while (answer !== 'quit') {
         }
         continue;
     } if (answer === 'botInfo') {    
-        console.log(`I\'m just a dumb bot, but you can ask me some questions via the commands listed in 'help'. You have asked me already ${counter} question(s.`);
+        console.log(`I\'m just a dumb bot, but you can ask me some questions via the commands listed in 'help'. You have asked me already ${counter} question(s).`);
         continue;
     } if (answer === 'botName') {      
         if (botNewName === '') {
