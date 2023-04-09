@@ -6,7 +6,7 @@ A short overview of the examples, or assignments, is provided in this document, 
 
 ___
 
-# Assignment: Reverse words
+## Assignment: Reverse words
 
 The task here was to figure out an appropriate sorting algorithm to reverse words in a given sentence, without altering the the order of the words, which made the code slightly more advanced than simple reversing.  
 
@@ -43,15 +43,14 @@ The words are returned from sorting into a returning parameter, which is initiat
 
 ___
 
-# Assignment: Dumb chatbot
+## Assignment: Dumb chatbot
 
 The assignment was to create a chatbot command line program with pre-determined commands, and their respective resulting output. I have referenced the assignment here shortly, but I left most of the instructions out, since they were mainly descriptive of what the various commands should do. The code used in executing these tasks was left up to the writer to decide.
 
 The instructions introduced a readline-sync package, which makes user input possible.
 
-## The command line application
+### The command line application
 *This is a really common exercise that almost every programmer does at some point in their career. The reason it’s so common, is because through this you have to use a lot of different types of variables and various operations.*
-
 
 ```js
 // Chatbot
