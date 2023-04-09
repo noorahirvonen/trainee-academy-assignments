@@ -1,7 +1,7 @@
 ## trainee-academy-assignments
 # Frontend portfolio - Noora Hirvonen
 
-This repository includes some examples of working skills with JavaScript, HTML & CSS, picked from coursework assignments provided by BuuttiEdu. More importantly, the examples showcase the writer's algorithmic thinking ability. 
+This repository includes some examples of my working skills with JavaScript, HTML & CSS, picked from coursework assignments provided by BuuttiEdu. More importantly, the examples showcase my algorithmic thinking ability. 
 A short overview of the examples, or assignments, is provided in this document, and the executable versions are found in the repository. I have included the instructions as written in the assignments, and some introductory words by myself, as well as short descriptions of why I wrote the code as I did. 
 
 ___
