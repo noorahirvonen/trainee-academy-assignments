@@ -52,6 +52,8 @@ The instructions introduced a readline-sync package, which makes user input poss
 ### The command line application
 *This is a really common exercise that almost every programmer does at some point in their career. The reason it’s so common, is because through this you have to use a lot of different types of variables and various operations.*
 
+After the startup lines, I have initiated some parameters I will need in the code. 
+
 ```js
 // Chatbot
 
@@ -63,7 +65,9 @@ let botNewName = '';
 let counter = 0;
 let answer;
 ```
-After the startup lines, I have initiated some parameters I will need in the code. 
+
+I needed to figure what kind of loop to use for the program execution. I decided intuitively to use the 'while' loop, and the quit command to terminate it. Thus, the bot will keep asking commands until told to stop. With every executed loop, a counter is added to keep note of the sum of commands.
+After defining the loop, all the different commands are written after an 'if' clausule, that checks the command literal. After doing whatever we wanted that command to do, the segment ends with a 'continue' to start the loop over. 
 
 ```js
 while (answer !== 'quit') {
@@ -73,9 +77,6 @@ while (answer !== 'quit') {
         console.log('----------------------------------------\n'); // The commands listed
         continue;
 ```
-
-I needed to figure what kind of loop to use for the program execution. I decided intuitively to use the 'while' loop, and the quit command to terminate it. Thus, the bot will keep asking commands until told to stop. With every executed loop, a counter is added to keep note of the sum of commands.
-After defining the loop, all the different commands are written after an 'if' clausule, that checks the command literal. After doing whatever we wanted that command to do, the segment ends with a 'continue' to start the loop over. 
 
 Mostly the commands were executable by simple 'if-else' structures, but producing the random results for *forecast* -command required some googling, and consecutive use of Javascript methods, as writing a randomizing algorithm from scratch would've been rather difficult.
 
