@@ -7,8 +7,7 @@ A short overview of the examples, or assignments, is provided in this document, 
 ___
 
 ## Assignment: Reverse words
-reverse-words.js
-https://github.com/noorahirvonen/trainee-academy-assignments/blob/0be2083825dd3bfb17bfc815bb7dcf5266747f64/reverse-words.js
+
 The task here was to figure out an appropriate sorting algorithm to reverse words in a given sentence, without altering the the order of the words, which made the code slightly more advanced than simple reversing.  
 
 *Create a function `reverseWords` that reverses each word in a string, but does not reverse the order of the words in the string.*
@@ -42,6 +41,7 @@ for (let i = 0; i < lauseToArray.length; i++) {
 ```
 The words are returned from sorting into a returning parameter, which is initiated as a string, and a break is added between every completion of the first loop (ie. word), so that the result is a string with desired properties.
 
+https://github.com/noorahirvonen/trainee-academy-assignments/blob/0be2083825dd3bfb17bfc815bb7dcf5266747f64/reverse-words.js
 ___
 
 ## Assignment: Dumb chatbot
@@ -95,5 +95,7 @@ Mostly the commands were executable by simple 'if-else' structures, but producin
         }
         continue;
 ```
+
+https://github.com/noorahirvonen/trainee-academy-assignments/blob/4d3be23b0baf61e0edd1ed05b6c75487a85b8720/dumb_chatbot.js
 ___
 
