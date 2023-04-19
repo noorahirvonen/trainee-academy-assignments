@@ -68,6 +68,7 @@ let answer;
 ```
 
 I needed to figure what kind of loop to use for the program execution. I decided intuitively to use the 'while' loop, and the quit command to terminate it. Thus, the bot will keep asking commands until told to stop. With every executed loop, a counter is added to keep note of the sum of commands.
+A switch-case -loop would be more efficient memorywise, but in this scale there is no practical difference. With growing number of commands, it would be better to use a different method here.
 After defining the loop, all the different commands are written after an 'if' clausule, that checks the command literal. After doing whatever we wanted that command to do, the segment ends with a 'continue' to start the loop over. 
 
 ```js
